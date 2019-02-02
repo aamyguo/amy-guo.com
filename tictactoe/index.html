@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <script src="./jquery-3.3.1.min.js"></script>
+        <script src="./main.js"></script>
+    </head>
+    <body>
+        <span id="turn">X goes first</span>
+        <div id="board">
+            <input type="button" id="btn0" class="butt" onclick="javascript:buttonClick(0);" value="--">
+            <input type="button" id="btn1" class="butt" onclick="javascript:buttonClick(1);" value="--">
+            <input type="button" id="btn2" class="butt" onclick="javascript:buttonClick(2);" value="--">
+            <br>
+            <input type="button" id="btn3" class="butt" onclick="javascript:buttonClick(3);" value="--">
+            <input type="button" id="btn4" class="butt" onclick="javascript:buttonClick(4);" value="--">
+            <input type="button" id="btn5" class="butt" onclick="javascript:buttonClick(5);" value="--">
+            <br>
+            <input type="button" id="btn6" class="butt" onclick="javascript:buttonClick(6);" value="--">
+            <input type="button" id="btn7" class="butt" onclick="javascript:buttonClick(7);" value="--">
+            <input type="button" id="btn8" class="butt" onclick="javascript:buttonClick(8);" value="--">
+        </div>
+        <span id="gameover"></span> <button type='button' id="restart" onclick="javascript:restart();" hidden>Restart</button>
+    </body>
+</html>
